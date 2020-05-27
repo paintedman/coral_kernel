@@ -126,5 +126,17 @@ all.config
 # fetched Android config fragments
 kernel/configs/android-*.cfg
 
-# Qualcomm out-of-tree audio drivers
-/techpack/audio
+#
+# build folder
+#
+out/
+
+#
+# don't track inner git repos. we use 'repo' for it
+#
+techpack/audio
+drivers/input/touchscreen/fts_touch
+drivers/staging/fw-api
+drivers/staging/qca-wifi-host-cmn
+drivers/staging/qcacld-3.0
+
